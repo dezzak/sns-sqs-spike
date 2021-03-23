@@ -13,7 +13,7 @@ import software.amazon.awssdk.services.sns.model.SnsException;
 
 @Service
 public class PublishService {
-    private final String topicArn = "arn:aws:sns:eu-west-1:000000000000:foo";
+    private final String topicArn = "arn:aws:sns:eu-west-1:000000000000:chicken_topic";
     private final SnsClient snsClient;
 
     public PublishService() throws URISyntaxException {
